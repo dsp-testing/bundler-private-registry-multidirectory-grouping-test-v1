@@ -2,4 +2,4 @@
 
 source 'https://rubygems.org'
 
-gem 'json', '2.11.0'
+gem 'json', '2.12.2'
