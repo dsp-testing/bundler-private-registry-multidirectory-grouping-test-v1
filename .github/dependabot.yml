@@ -1,7 +1,18 @@
 version: 2
 updates:
   - package-ecosystem: 'bundler'
-    directory: /
+    directories:
+      - '**/*'
+    groups:
+      # Dependabot requires separate groups for version and security updates
+      # By default, dependabot only updates packages explicitly defined in Gemfile
+      bundler-nonbreaking-proximal-dependency-updates:
+        applies-to: version-updates
+        patterns:
+          - '*'
+        update-types:
+          - 'minor'
+          - 'patch'
     schedule:
       interval: 'weekly'
     registries:
