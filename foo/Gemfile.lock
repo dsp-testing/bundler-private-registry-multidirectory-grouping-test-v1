@@ -1,14 +1,14 @@
 GEM
   remote: https://jfrogghdemo.jfrog.io/artifactory/api/gems/dependabot_first_responder/
   specs:
-    json (2.12.2)
+    json (2.11.0)
 
 PLATFORMS
   ruby
   x86_64-linux
 
 DEPENDENCIES
-  json (= 2.12.2)
+  json (= 2.11.0)
 
 BUNDLED WITH
    2.5.11
