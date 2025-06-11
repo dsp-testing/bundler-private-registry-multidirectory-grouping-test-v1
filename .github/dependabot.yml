@@ -23,7 +23,6 @@ registries:
   jfrog-artifactroy:
     type: "rubygems-server"
     url: "jfrogghdemo.jfrog.io"
-    "token": "${{ secrets.NEW_TOKEN }}"
-    # username: "thavaahariharangit@github.com"  # Store username in GitHub Secrets
-    # password: "${{ secrets.JFROG_ARTIFACTORY_TOKEN }}"
+    username: "thavaahariharangit@github.com"  # Store username in GitHub Secrets
+    password: "${{ secrets.JFROG_ARTIFACTORY_TOKEN }}"
     replaces-base: true
