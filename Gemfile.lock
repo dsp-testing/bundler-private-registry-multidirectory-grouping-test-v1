@@ -8,7 +8,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  json (= 2.12.2)
+  json (= 2.11.0)
 
 BUNDLED WITH
    2.5.11
